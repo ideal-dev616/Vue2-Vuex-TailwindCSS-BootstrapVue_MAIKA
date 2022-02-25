@@ -1,0 +1,46 @@
+{
+  "name": "maika",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "apexcharts": "^3.29.0",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.19.1",
+    "jsonwebtoken": "^8.5.1",
+    "material-icons": "^1.10.1",
+    "pretty-checkbox-vue": "^1.1.9",
+    "prismjs": "1.16.0",
+    "vee-validate": "^3.4.13",
+    "vue": "^2.6.14",
+    "vue-acl": "^4.1.10",
+    "vue-core-image-upload": "^2.4.13",
+    "vue-feather-icons": "^5.1.0",
+    "vue-i18n": "^8.26.7",
+    "vue-notification": "^1.3.20",
+    "vue-perfect-scrollbar": "^0.2.1",
+    "vue-prism-component": "1.1.1",
+    "vue-router": "^3.5.3",
+    "vue-select": "^3.16.0",
+    "vue2-hammer": "^2.1.2",
+    "vuesax": "^3.12.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-service": "^4.5.15",
+    "autoprefixer": "^9",
+    "axios-mock-adapter": "^1.20.0",
+    "node-sass": "4.14.1",
+    "postcss": "^7",
+    "sass-loader": "10.0.0",
+    "tailwindcss": "1.8.10",
+    "vue-template-compiler": "^2.6.14"
+  }
+}

@@ -1,0 +1,225 @@
+@import '../_variables.scss';
+
+
+.form-control {
+    color: $text-color-1 !important;
+    line-height: 28px !important;
+    height: 44px !important;
+}
+
+.form-group {
+    label {
+        line-height: 19px;
+        margin-bottom: 8px;
+        color: $text-color-1 !important;
+    }
+}
+
+.vx-card.px0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    
+    .vx-card__header {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}
+
+.select-with-image {
+    .vs__dropdown-option {
+        line-height: 28px;
+        height: 44px;
+        align-items: center;
+    }
+    .vs__dropdown-toggle {
+        height: 41px;
+    }
+    span {
+        line-height: 28px;
+        img {
+            margin-right: 16px;
+            margin-left: 2px;
+        }
+    }
+    input {
+        display: none;
+    }
+    input[placeholder] {
+        display: block !important;
+    }
+    li {
+        display: flex !important;
+        img {
+            margin-right: 20px !important;
+        }
+    }
+}
+
+.f-13-16 {
+    font-size: 13px;
+    line-height: 16px;
+    color: $text-color-2;
+}
+
+.f-14-17 {
+    font-size: 14px !important;
+    line-height: 17px !important;
+}
+
+.f-16-19 {
+    font-size: 16px !important;
+    line-height: 19px !important;
+    color: $text-color-1;
+}
+
+.f-16-28 {
+    font-size: 16px !important;
+    line-height: 28px !important;
+}
+
+.f-18-22 {
+    font-size: 18px !important;
+    line-height: 22px !important;    
+}
+
+.f-24-29 {
+    font-size: 24px !important;
+    line-height: 29px !important;
+    color: $black !important;
+    font-weight: 700 !important;
+}
+
+.f-24-29-400 {
+    font-size: 24px !important;
+    line-height: 29px !important;
+    color: $black !important;
+    font-weight: 400 !important;
+}
+
+.f-28-34 {
+    font-size: 28px;
+    line-height: 34px;
+    color: $black;
+    font-weight: 700;
+}
+
+.h-29 {
+    height: 29px !important;
+}
+
+.h-41 {
+    height: 41px !important;
+}
+
+.h-44 {
+    height: 44px !important;
+}
+
+.c-1 {
+    color: $text-color-1;
+}
+
+.c-2 {
+    color: $text-color-2;
+}
+
+.c-b {
+    color: $blue;
+}
+
+.c-black {
+    color: $black;
+}
+
+.ml-px-10 {
+    margin-left: 10px !important;
+}
+
+.pretty {
+    font-size: 22px;
+    margin-right: 10px !important;
+
+    .state.p-my-primary {
+        font-size: 14px !important;
+    }
+    
+    input:checked ~ .state{
+        svg {
+            color: $check-border !important;
+        }
+        .icon {
+            color: $check-border !important;
+        }
+
+        &.p-my-primary {
+            width: 16px !important;
+            font-size: 16px;
+
+            svg {
+                color: $primary !important;
+            }
+            .icon {
+                color: $primary !important;
+            }
+        }
+    }
+    
+    &.p-icon input:checked ~ .state {
+        width: 16px !important;
+        font-size: 16px;
+
+        label:before {
+            border-color: $check-border !important;
+            border-radius: 3px !important;
+        }
+
+        &.p-my-primary {
+            border-color: $primary !important;
+            border-radius: 2px !important;
+        }
+    }
+
+    &.p-icon.p-check-22 input:checked ~ .state {
+        width: 24px !important;
+        font-size: 22px;
+
+        label:before {
+            border-color: $check-border !important;
+            border-radius: 3px !important;
+        }
+
+        &.p-my-primary {
+            border-color: $primary !important;
+            border-radius: 2px !important;
+        }
+    }
+
+    
+    .state {
+        label:before {
+            border-color: $check-border !important;
+            border-radius: 3px !important;
+        }
+
+        &.p-my-primary {
+            label:before {
+                border-color: $primary !important;
+                border-radius: 2px !important;
+            }
+        }
+    }
+}
+
+.v-select.hidden-close-in-select {
+    button {
+        display: none;
+    }
+}
+
+.svg-w-20-mr-14 {
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+}
+
+

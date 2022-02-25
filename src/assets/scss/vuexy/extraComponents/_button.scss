@@ -1,0 +1,50 @@
+/*=========================================================================================
+    File Name: _button.scss
+    Description: Styles for button.
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+@import '../_variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+.my-btn-primary.vs-button-filled {
+    background-color: $primary !important;
+    padding: 11px 16px 10px 16px !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+
+    i.vs-icon {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    &:hover {
+        box-shadow: none;
+    }
+}
+
+.bottom-btn {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 5px;
+    height: 41px;
+    font-weight: 600;
+    &.create {
+      padding: 8px 25px 8px 10px;
+      svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+    }
+    &.back {
+      padding: 8px 24px 8px 24px;
+    }
+    
+  }

@@ -1,0 +1,21 @@
+/*=========================================================================================
+    File Name: _button.scss
+    Description: Styles for button.
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+@import '../_variables.scss';
+
+.v-select {
+    .vs__dropdown-toggle {
+        .vs__search {
+            color: $text-color-2 !important;
+        }
+    }
+} 
+
+.vs__dropdown-toggle {
+    border-radius: 0px !important;
+}

@@ -1,0 +1,83 @@
+/*=========================================================================================
+    File Name: _button.scss
+    Description: Styles for button.
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+@import '../_variables.scss';
+
+.user-item {
+    margin: 0px 14px;
+
+    &.narrow {
+        margin: 0px !important;
+
+        .user-avatar-info {
+            padding: 10px 15px 9px !important;
+        }
+    }
+
+    .con-img.vs-avatar--con-img {
+        border: solid 1px white !important;
+    }
+
+    &:hover {
+        background-color: $primary;
+        color: white;
+
+        .user-info {
+            color: white;
+            
+            .user-position {
+                color: white;
+            }
+        }
+
+        .user-avatar-info {
+            border-bottom: 0px;
+        }
+    }
+    
+    .con-vs-avatar {
+        margin: 0px 15px 0px 0px;
+    }
+
+    .user-info {
+        font-weight: 600;
+        line-height: 19px;
+        color: $black;
+
+        .user-position {
+            color: $mid-black;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            margin-top: 6px;
+        }
+    }
+
+    .user-avatar-info {
+        border-bottom: solid 1px $light-gray;
+        padding: 10px 0px 9px 28px !important;        
+
+        &>div {
+            height: 50px;
+        }
+
+        .dot-count {
+            width: 14px;
+            height: 14px;
+            position: absolute;
+            top: 36px;
+            border-radius: 8px;
+            border: solid 2px white;
+        }
+    }
+
+    .detail {
+        min-width: 43px;
+        padding-right: 23px;
+    }
+}
